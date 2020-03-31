@@ -1,0 +1,22 @@
+{
+  "name": "GitProfile",
+  "version": "1.0.0",
+  "description": "My wonderful Nuxt.js project",
+  "author": "Cheick-ahmed",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {}
+}
