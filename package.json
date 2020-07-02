@@ -6,9 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "build": "nuxt generate",
+    "start": "nuxt start"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -18,5 +17,8 @@
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "nuxt-purgecss": "^1.0.0"
+  }
 }
